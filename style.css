@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+h1 {
+    color: blueviolet;
+    margin: auto;
+    font-size: 50px;
+}
+
+button {
+    background-color: aqua;
+    border: 2px solid;
+}
+
+#choices {
+    background-color: grey;
+    padding: 20px 50px 20px 50px;
+}
+
+#result {
+    background-color: bisque;
+    padding: 20px 50px 50px 50px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    min-height: 100px;
+}
